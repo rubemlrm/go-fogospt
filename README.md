@@ -1,0 +1,1 @@
+# fogospt-golang-client
