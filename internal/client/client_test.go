@@ -1,7 +1,6 @@
 package client_test
 
 import (
-	"fmt"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -11,9 +10,7 @@ import (
 )
 
 func TestClientCallWithSuccess(t *testing.T) {
-	expected := "dummy data"
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, expected)
 	}))
 	defer server.Close()
 
