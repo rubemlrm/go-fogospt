@@ -1,3 +1,3 @@
 module github.com/Rubemlrm/fogospt-golang-client
 
-go 1.16
+go 1.18
