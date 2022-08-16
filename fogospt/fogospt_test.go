@@ -1,10 +1,10 @@
 package fogospt_test
 
 import (
-	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
+	"os"
 	"testing"
 
 	"github.com/Rubemlrm/fogospt-golang-client/fogospt"
@@ -44,7 +44,7 @@ func TestClientCallWith500Error(t *testing.T) {
 }
 
 func fixture(path string) string {
-	b, err := ioutil.ReadFile("../fixtures/" + path)
+	b, err := os.ReadFile("../fixtures/" + path)
 	if err != nil {
 		panic(err)
 	}
