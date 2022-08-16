@@ -17,5 +17,8 @@ jobs:
         with:
           # Optional: version of golangci-lint to use in form of v1.2 or v1.2.3 or `latest` to use the latest version
           version: latest
-      - name: run tests
-        run: make tests
+      - name: run tests with coverage
+        run: go test -race -coverprofile=coverage.txt -covermode=atomic ./fogospt
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
