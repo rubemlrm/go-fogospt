@@ -12,3 +12,9 @@ generate-mocks:
 # Run golang tests
 tests:
 	go test -v ./...
+
+.PHONY: tests-coverage
+# Get test converages
+tests-coverage:
+	go test -coverprofile=coverage.out ./fogospt
+	go tool cover -html=coverage.out

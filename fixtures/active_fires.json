@@ -1,0 +1,41 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": "string",
+            "coords": true,
+            "dateTime": {
+                "sec": 0
+            },
+            "date": "2019-08-24",
+            "hour": "string",
+            "location": "string",
+            "aerial": 0,
+            "terrain": 0,
+            "man": 0,
+            "district": "string",
+            "concelho": "string",
+            "dico": "string",
+            "freguesia": "string",
+            "lat": 0,
+            "lng": 0,
+            "naturezaCode": 3101,
+            "natureza": "string",
+            "statusCode": 3,
+            "statusColor": "string",
+            "status": "string",
+            "important": false,
+            "active": true,
+            "sadoId": "string",
+            "sharepointId": 0,
+            "extra": "string",
+            "disappear": false,
+            "created": {
+                "sec": 0
+            },
+            "updated": {
+                "sec": 0
+            }
+        }
+    ]
+}
