@@ -13,6 +13,7 @@ generate-mocks:
 tests:
 	go test -v ./...
 
+
 .PHONY: tests-coverage
 # Get test converages
 tests-coverage:
