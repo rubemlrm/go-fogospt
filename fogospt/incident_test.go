@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/Rubemlrm/fogospt-golang-client/fogospt"
+	"github.com/Rubemlrm/go-fogospt/fogospt"
 	"github.com/stretchr/testify/assert"
 )
 
